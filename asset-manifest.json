@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/hemanthh-portfolio/static/css/main.525e965c.css",
+    "main.js": "/hemanthh-portfolio/static/js/main.2cb92f2d.js",
+    "static/media/SSG2025.png": "/hemanthh-portfolio/static/media/SSG2025.13b93e8c9f58f94608f0.png",
+    "static/media/Hemanth.png": "/hemanthh-portfolio/static/media/Hemanth.70da6f47ac36ed7cddc4.png",
+    "static/media/Ishita.png": "/hemanthh-portfolio/static/media/Ishita.5916c3184226bfd2fcdf.png",
+    "static/media/Gnanitha.png": "/hemanthh-portfolio/static/media/Gnanitha.a6c4a01300d81acbe5a3.png",
+    "static/media/karthik.png": "/hemanthh-portfolio/static/media/karthik.0fafb3f761fbba93dc8d.png",
+    "static/media/Varsha.png": "/hemanthh-portfolio/static/media/Varsha.e13b7621f993ffe157f6.png",
+    "static/media/ZPHS.png": "/hemanthh-portfolio/static/media/ZPHS.df70cef0b3da535eede2.png",
+    "static/media/hitam.png": "/hemanthh-portfolio/static/media/hitam.916fb854e66ab42b2492.png",
+    "static/media/Mjp.png": "/hemanthh-portfolio/static/media/Mjp.c50028b76b5d98e331bb.png",
+    "static/media/Google.png": "/hemanthh-portfolio/static/media/Google.cd577fa429c070d76e1d.png",
+    "static/media/nstse.jpg": "/hemanthh-portfolio/static/media/nstse.97b3d6b3bf101b34151d.jpg",
+    "static/media/LinkedinL.png": "/hemanthh-portfolio/static/media/LinkedinL.db720d1351aa8902c81b.png",
+    "static/media/nie.jpg": "/hemanthh-portfolio/static/media/nie.817950cfbcf6ec2d918a.jpg",
+    "static/media/Infosyss.png": "/hemanthh-portfolio/static/media/Infosyss.fca193cb0666f963b2bc.png",
+    "static/media/SSG 2026.jpeg": "/hemanthh-portfolio/static/media/SSG 2026.06b9104703672556e5a9.jpeg",
+    "static/media/Ecommerce.jpg": "/hemanthh-portfolio/static/media/Ecommerce.f242cfbde85bd1259d70.jpg",
+    "static/media/Swecha.jpeg": "/hemanthh-portfolio/static/media/Swecha.8de1d069f1c3e947dc21.jpeg",
+    "static/media/Cisci.png": "/hemanthh-portfolio/static/media/Cisci.7e8c7b0a63a50588c24a.png",
+    "static/media/Heritage.jpeg": "/hemanthh-portfolio/static/media/Heritage.6eb5fbfbac7f4cdd30ee.jpeg",
+    "static/media/Levelup.jpeg": "/hemanthh-portfolio/static/media/Levelup.a7740292b64df20fd6bb.jpeg",
+    "static/media/SIH2024.jpeg": "/hemanthh-portfolio/static/media/SIH2024.68cf3f1dfce943fcb5a4.jpeg",
+    "static/media/VOC.jpg": "/hemanthh-portfolio/static/media/VOC.78b9ac0fdf576585db70.jpg",
+    "static/media/Portfolio.jpeg": "/hemanthh-portfolio/static/media/Portfolio.c473823cfb121a1ac0fd.jpeg",
+    "static/media/HMS.jpeg": "/hemanthh-portfolio/static/media/HMS.bdfbfa0768e9583abe53.jpeg",
+    "static/media/Infotact.jpg": "/hemanthh-portfolio/static/media/Infotact.a730bdbbe484dba4cd0b.jpg",
+    "static/media/IUCEE.jpeg": "/hemanthh-portfolio/static/media/IUCEE.7344ef177f49a3324b2a.jpeg",
+    "static/media/Linkedinp.webp": "/hemanthh-portfolio/static/media/Linkedinp.e132b6c330f413676899.webp",
+    "index.html": "/hemanthh-portfolio/index.html",
+    "main.525e965c.css.map": "/hemanthh-portfolio/static/css/main.525e965c.css.map",
+    "main.2cb92f2d.js.map": "/hemanthh-portfolio/static/js/main.2cb92f2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.525e965c.css",
+    "static/js/main.2cb92f2d.js"
+  ]
+}
