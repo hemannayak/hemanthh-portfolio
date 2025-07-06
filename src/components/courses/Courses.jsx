@@ -17,58 +17,58 @@ const courses = () => {
       id: 10,
       title: "Deloitte Australia - Data Analytics Job Simulation",
       img: IMG5,
-      link: "https://drive.google.com/file/d/1A5qgGxGC_vVwAoRO3j5v5fTbuvxI5Fn2/view?usp=sharing",
+      link: "hhttps://drive.google.com/file/d/1kEcAPN2jIYztFtJXwg5QtwTLTLtrxUOR/view?usp=sharing",
     },
     {
       id: 9,
       title:
-        "Introduction to Data ScienceAccenture UK - Introduction to Technology Apprenticeship Job Simulation",
+        "Accenture UK - Introduction to Technology Apprenticeship Job Simulation",
       img: IMG6,
-      link: "https://drive.google.com/file/d/1j5KOnZAIa5caiK4XbjwnG9vPv8loabZ9/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1pga9TUe7z8UNoKxsZ3UmTW9zm4U7XX6R/view?usp=sharing",
     },
     {
       id: 8,
       title: "Deloitte Australia - Technology  Job Simulation",
       img: IMG8,
-      link: "https://drive.google.com/file/d/1i1LoviGH3xB9RElJXHlN90eth88dOfWy/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1VvD0VeVNUC2ln83NNigGiS9w2Ijr85FZ/view?usp=sharing",
     },
     {
       id: 7,
       title: "CSS Fundamentals - Linkedin Learning",
       img: IMG7,
-      link: "https://drive.google.com/file/d/1gTiYqJeV76M0W2X40w68mMGWErfXWI-G/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1QpV7ftaING8HKZJI5qdt5-ExurKFDcYI/view?usp=sharing",
     },
     {
       id: 5,
       title: "HTML Essential Training - Linkedin Learning",
       img: IMG2,
-      link: "https://drive.google.com/file/d/15XRsbuas-yLMTaQ9SKdklnzsyOko1Mhl/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1L8u-CIAOYgnjlD5eK-MLEOus640YfQCf/view?usp=sharing",
     },
     {
       id: 4,
       title: "Introduction to Generative AI - Google",
       img: IMG3,
-      link: "https://www.cloudskillsboost.google/public_profiles/4be8e0c8-981a-40a3-8314-144bdfb4dd58",
+      link: "https://www.cloudskillsboost.google/public_profiles/57aba701-53d4-4f7a-840d-5de145af9f57/badges/11800271?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     },
     {
       id: 1,
       title: "AI Creators Internship - Swecha Telangana",
       img: IMG1,
-      link: "https://drive.google.com/file/d/1gwLz3bzT6dD_jg-qQ6Mzc_wxlUrnj3UE/view?usp=sharing",
+      link: "https://drive.google.com/file/d/17zkIKuGrb6GoPOMS83DN4Lo2xakPX_4s/view?usp=sharing",
     },
     {
       id: 2,
       title: "Programming in C - Infosys Springboard",
       img: IMG9,
 
-      link: "https://drive.google.com/file/d/11ScUC_BegyWov6mopt0h4toclgriYXJ8/view?usp=sharing",
+      link: "https://drive.google.com/file/d/16ZweTheVa31rC1JoI4uYJUkSiKojn7uY/view?usp=sharing",
     },
     {
       id: 3,
       title: "PCAP: Programming Essentials in Python",
       img: IMG10,
 
-      link: "https://drive.google.com/file/d/1blixYrFxDN2IVadpohxnPkZld3wNiMaf/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1gPuRErD3HHtUIkvz24fSB22lED48PqXr/view?usp=sharing",
     },
   ];
 

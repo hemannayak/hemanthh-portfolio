@@ -5,11 +5,19 @@
 }
 
 .course__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    height: 100%;
+    box-sizing: border-box;
+    min-height: 450px;
+    /* Makes all cards equal height */
+    overflow: hidden;
 }
 
 .course__item:hover {
@@ -18,41 +26,65 @@
 }
 
 .course__item-image {
-    border-radius: 1.5rem;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.course__item-image img {
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    border-radius: 1rem;
+}
+
+.course__item-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .course__item h3 {
-    margin: 2rem 0;
+    margin: 0.5rem 0 0.5rem;
 }
 
 .course__item p {
-    margin: 0 0 1.2rem 0;
     font-size: 0.9rem;
+    color: var(--color-light);
+    margin-bottom: auto;
 }
 
 .course__item-cta {
     display: flex;
     gap: 0.5rem;
-    margin-bottom: 2rem; 
+    justify-content: flex-start;
+    margin-top: 1rem;
 }
 
-.course__item-content {
-    height:20%;
-    
-}
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .course__container {
         grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+        gap: 1.5rem;
     }
 }
-  
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     .course__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    .course__item {
+        min-height: 420px;
+    }
+
+    .course__item-image img {
+        max-height: 180px;
     }
 }
 

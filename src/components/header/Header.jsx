@@ -15,27 +15,37 @@ const Header = () => {
           options={{
             autoStart: true,
             loop: true,
+            delay: 75,
+            deleteSpeed: 50,
           }}
           onInit={(typewriter) => {
             typewriter
               .pauseFor(500)
               .typeString(
-                `<span className = "profession" >Full Stack Developer.</span>`
+                `<span className="profession">Student HOD – CSE (Data Science)</span>`
               )
-              .pauseFor(300)
-              .deleteChars(21)
+              .pauseFor(1200)
+              .deleteAll()
               .typeString(
-                `<span className = "profession">AIML Enthusiast.</span>`
+                `<span className="profession">Data Analyst Intern</span>`
               )
-              .pauseFor(300)
-              .deleteChars(21)
-              .typeString(`<span className = "profession">Data Analyst.</span>`)
-              .pauseFor(300)
-              .deleteChars(21)
+              .pauseFor(1200)
+              .deleteAll()
               .typeString(
-                `<span className = "profession">Life Long Learner.</span>`
+                `<span className="profession">Frontend Developer</span>`
               )
-              .pauseFor(1000)
+              .pauseFor(1200)
+              .deleteAll()
+              .typeString(
+                `<span className="profession">AI & Prompt Engineer</span>`
+              )
+              .pauseFor(1200)
+              .deleteAll()
+              .typeString(
+                `<span className="profession">Content Creator @hem_writess</span>`
+              )
+              .pauseFor(1500)
+              .deleteAll()
               .start();
           }}
         />

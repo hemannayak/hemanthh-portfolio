@@ -16,8 +16,8 @@ const Achievements = () => {
       subtitle:
         "Currently leading the department under SSG, driving initiatives, events, and peer-faculty engagement.",
       img: IMG9,
-      link: "",
-      linkName: "",
+      link: "https://www.instagram.com/p/DJTPYe-zOVO/?utm_source=ig_web_copy_link&igsh=MXNwand3MWY3d3J3cA==",
+      linkName: "SSG HITAM",
     },
     {
       id: 8,
@@ -25,8 +25,8 @@ const Achievements = () => {
       subtitle:
         "Top 25 Finalist in the internal round at HITAM. Developed real-world tech solutions in a team setting.",
       img: IMG7,
-      link: "",
-      linkName: "",
+      link: "https://www.linkedin.com/posts/hemanth-nayak7_smartindiahackathon2024-hackathonachievement-activity-7259541815555469312-U3dj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZw_zUB1T5ws7u_CxtOsHAJqon_676sYbQ",
+      linkName: "Certificate",
     },
     {
       id: 7,
@@ -43,8 +43,8 @@ const Achievements = () => {
       subtitle:
         "Organized department-level events, facilitated student voices, and collaborated with faculty under SSG.",
       img: IMG6,
-      link: "",
-      linkName: "",
+      link: "https://www.instagram.com/p/C_uYtRSzULg/?utm_source=ig_web_copy_link&igsh=MTVwcGY1M3FzZnM2OA==",
+      linkName: "SSG - HITAM",
     },
     {
       id: 1,
@@ -52,8 +52,8 @@ const Achievements = () => {
       subtitle:
         "Participated in the All India Critical Thinking Test conducted by Gray Matters India.",
       img: IMG1,
-      link: "",
-      linkName: "",
+      link: "https://drive.google.com/file/d/1SeR0F-z5oFXfSwMUjMwCtBmcoX3PlSMb/view?usp=sharing",
+      linkName: "Certificate",
     },
     {
       id: 5,
@@ -61,8 +61,8 @@ const Achievements = () => {
       subtitle:
         "Took part in the national-level competition organized by The Unified Council.",
       img: IMG2,
-      link: "https://www.hackerrank.com/karthikeyaburla?hr_r=1",
-      linkName: "Profile",
+      link: "",
+      linkName: "",
     },
     {
       id: 2,
@@ -70,9 +70,10 @@ const Achievements = () => {
       img: IMG3,
       subtitle:
         "Qualified for the City Finals of the Think & Learn Challenge conducted by Times of India.",
-      link: "",
+      link: "https://drive.google.com/file/d/1a6DEKBA5wzDk3Gk7GsmFL7KoXkbG3zRL/view?usp=sharing",
+      linkName: "Certificate",
     },
-    ];
+  ];
 
   const openLink = (url) => {
     let win = window.open(url, "_blank");

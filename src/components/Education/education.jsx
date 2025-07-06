@@ -1,5 +1,5 @@
 import React from "react";
-import { BorderBeam } from "../../componentsUi/magicui/border-beam";
+// import { BorderBeam } from "../../componentsUi/magicui/border-beam";
 import IMG1 from "../../assets/hitam.png";
 import IMG2 from "../../assets/Mjp.png";
 import IMG3 from "../../assets/ZPHS.png";

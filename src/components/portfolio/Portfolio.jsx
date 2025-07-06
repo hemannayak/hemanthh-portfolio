@@ -5,7 +5,7 @@ import IMG3 from "../../assets/Portfolio.jpeg";
 import IMG4 from "../../assets/HMS.jpeg";
 import IMG5 from "../../assets/Ecommerce.jpg";
 
-import { NeonGradientCard } from "../../componentsUi/magicui/neon-gradient-card";
+// import { NeonGradientCard } from "../../componentsUi/magicui/neon-gradient-card";
 import "./portfolio.css";
 
 const Portfolio = () => {
