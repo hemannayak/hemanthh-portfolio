@@ -13,6 +13,7 @@ import IMG6 from "../../assets/SSG2025.png";
 import IMG7 from "../../assets/Infotact.jpg";
 import IMG8 from "../../assets/codealpha.jpeg";
 import IMG9 from "../../assets/Apexplanet.jpeg";
+import IMG10 from "../../assets/Exe.jpeg";
 
 import "./work.css";
 
@@ -23,6 +24,35 @@ const Work = () => {
         <h3>Experience</h3>
       </div>
       <VerticalTimeline>
+        {/* Excelerate – Data Analyst Trainee Intern */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid rgb(33, 150, 243)" }}
+          date="Jul 2025 – Aug 2025"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<img className="experienceImg" src={IMG10} alt="Excelerate" />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Data Analyst Trainee Intern
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Excelerate (Remote)
+          </h4>
+          <ul>
+            <li>
+              Turning raw data into real-world insights by performing data
+              cleaning, transformation, and visualization tasks tailored to
+              business needs.
+              Conducted statistical analysis and crafted purpose-driven
+              dashboards, enabling better decision-making across internal teams.            
+              Built interactive charts, reports, and data presentations focused
+              on clarity, impact, and storytelling with numbers.
+              Gained experience in stakeholder communication by delivering
+              concise and data-backed narratives aligned with company goals.
+            </li>
+          </ul>
+        </VerticalTimelineElement>
         {/* Infotact Solutions – Data Analytics Intern */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

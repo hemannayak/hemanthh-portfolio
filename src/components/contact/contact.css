@@ -1,21 +1,24 @@
 .container.contact__container {
-    width: 58%;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
-} 
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: flex-start;
+}
 
 .contact__options {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 1.2rem;
+    gap: 1.5rem;
 }
 
 .contact__option {
     background: var(--color-bg-variant);
-    padding: 1.2rem;
-    border-radius: 1.2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -27,54 +30,97 @@
 }
 
 .contact__option-icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: var(--color-primary);
     margin-bottom: 0.5rem;
+}
+
+.contact__option h4 {
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.contact__option h5 {
+    font-size: 0.9rem;
+    color: var(--color-light);
 }
 
 .contact__option a {
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
-}
-
-.contact__option h5 {
-    color: var(--color-light);
-}
-
-.contact__option h4 {
-    font-weight: 500;
-}
-
-form span {
-    font-size: 0.8rem;
+    color: var(--color-primary);
+    text-decoration: underline;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    width: 100%;
 }
 
 input,
 textarea {
     width: 100%;
-    padding: 1.5rem;
+    padding: 1rem 1.2rem;
     border-radius: 0.5rem;
     background: transparent;
     border: 2px solid var(--color-primary-variant);
-    resize: none;
     color: var(--color-white);
+    font-size: 0.9rem;
+    resize: none;
 }
 
-@media screen and (max-width: 1024px){
+form button {
+    width: fit-content;
+    align-self: flex-start;
+}
+
+form span {
+    font-size: 0.85rem;
+    color: var(--color-light);
+    margin-top: 0.5rem;
+}
+
+/* Tablet View */
+@media screen and (max-width: 1024px) {
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    form button {
+        width: 100%;
+        text-align: center;
+    }
 }
-  
-@media screen and (max-width: 600px){
+
+/* Mobile View */
+@media screen and (max-width: 600px) {
     .container.contact__container {
-        width: var(--container-width-sm);
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+
+    input,
+    textarea {
+        font-size: 0.85rem;
+    }
+
+    .contact__option-icon {
+        font-size: 1.6rem;
+    }
+
+    .contact__option h4 {
+        font-size: 1rem;
+    }
+
+    .contact__option h5 {
+        font-size: 0.75rem;
+    }
+
+    .contact__option a {
+        font-size: 0.75rem;
     }
 }
