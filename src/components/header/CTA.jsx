@@ -7,12 +7,16 @@ const CTA = () => {
     <div className="cta">
       <a
         href="https://drive.google.com/file/d/10Cya3rSyD5J3tnPgdlOJt50qcE7DYPh9/view?usp=sharing"
-        download
-        className="btn"
+        target="_blank"
+        rel="noreferrer"
+        className="btn btn-primary"
       >
-        <Button className="text-lg">My Resume</Button>
+        <CoolMode>
+          <Button className="text-lg">My Resume</Button>
+        </CoolMode>
       </a>
-      <a href="#contact" className=" btn btn-primary">
+
+      <a href="#contact" className="btn btn-primary">
         <CoolMode>
           <Button className="text-lg">Let's Talk!!</Button>
         </CoolMode>
