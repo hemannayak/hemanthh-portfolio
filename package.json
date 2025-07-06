@@ -2,6 +2,7 @@
   "name": "Hemanth-Portfolio",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://hemannayak.github.io/hemanthh-portfolio",
   "author": "Hemanth Nayak",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -13,6 +14,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.8",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.411.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -29,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

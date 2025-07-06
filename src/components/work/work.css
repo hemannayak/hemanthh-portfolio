@@ -1,13 +1,89 @@
-.experienceImg{
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-#work{
+/* === EXPERIENCE SECTION STYLES === */
+#work {
     display: flex;
     justify-content: center;
     margin: 2rem 0rem;
     color: var(--color-primary);
     text-align: center;
     font-size: 2rem;
+}
+
+/* === TIMELINE IMAGE ICON STYLING === */
+.experienceImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* === ICON GLOW & INTERACTIVITY === */
+.vertical-timeline-element-icon {
+    box-shadow:
+        0 0 0 4px rgba(255, 255, 255, 0.2),
+        0 0 10px rgba(33, 150, 243, 0.7),
+        0 0 20px rgba(33, 150, 243, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.vertical-timeline-element-icon:hover {
+    transform: scale(1.1);
+}
+
+/* === TIMELINE CARD CONTENT === */
+.vertical-timeline-element-content {
+    transition: all 0.3s ease-in-out;
+}
+
+.vertical-timeline-element-content:hover {
+    transform: translateY(-5px);
+}
+
+.vertical-timeline-element-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.vertical-timeline-element-subtitle {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--color-light);
+    margin-bottom: 0.6rem;
+}
+
+.vertical-timeline-element-content ul {
+    padding-left: 1.2rem;
+    list-style-type: disc;
+}
+
+.vertical-timeline-element-content li {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--color-white);
+    margin-bottom: 0.5rem;
+}
+
+/* === BUTTON STYLE FOR OFFER LETTER === */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    background-color: var(--color-primary);
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+}
+
+.btn:hover {
+    background-color: #0e66b8;
+    color: #fff;
 }
