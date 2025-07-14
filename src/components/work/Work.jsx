@@ -9,7 +9,6 @@ import "./work.css";
 // Image Imports
 import IMG1 from "../../assets/VOC.jpg";
 import IMG2 from "../../assets/SSG 2026.jpeg";
-import IMG3 from "../../assets/Eis.jpeg";
 import IMG4 from "../../assets/AICreators.jpeg";
 import IMG5 from "../../assets/IUCEE.jpeg";
 import IMG6 from "../../assets/SSG2025.png";
@@ -17,6 +16,10 @@ import IMG7 from "../../assets/Infotact.jpg";
 import IMG8 from "../../assets/codealpha.jpeg";
 import IMG9 from "../../assets/Apexplanet.jpeg";
 import IMG10 from "../../assets/Exe.jpeg";
+import IMG11 from "../../assets/ele.webp";
+import IMG12 from "../../assets/edunet.png";
+
+
 
 const Work = () => {
   return (
@@ -25,6 +28,81 @@ const Work = () => {
         <h3>Experience</h3>
       </div>
       <VerticalTimeline>
+        {/* ✨ Elevvo NLP Internship */}
+        <VerticalTimelineElement
+          date="Jul 2025 – Present"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid rgb(33, 150, 243)" }}
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<img className="experienceImg" src={IMG11} alt="Elevvo" />}
+        >
+          <h3>Natural Language Processing Intern</h3>
+          <h4>Elevvo Pathways (Remote)</h4>
+          <ul>
+            <li>
+              Worked on real-world NLP tasks like sentiment classification, text
+              generation, and named entity recognition.
+            </li>
+            <li>
+              Followed a structured learning path on NLP pipelines using Hugging
+              Face, OpenAI, and spaCy libraries.
+            </li>
+            <li>
+              Participated in self-paced modules with personalized feedback and
+              code reviews from industry mentors.
+            </li>
+            <li>
+              Delivered weekly project milestones and presented final project
+              with insights on language model outputs.
+            </li>
+          </ul>
+          <a
+            className="btn btn-primary"
+            href="https://drive.google.com/file/d/14-L-zowOROHOjBNoJowFhY-qf-iY8EBF/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Offer Letter
+          </a>
+        </VerticalTimelineElement>
+
+        {/* ✨ Shell x Edunet Internship */}
+        <VerticalTimelineElement
+          date="Jul 2025 – Present"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid rgb(33, 150, 243)" }}
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<img className="experienceImg" src={IMG12} alt="Edunet" />}
+        >
+          <h3>Intern – Shell x Edunet x AICTE (Skills4Future Program)</h3>
+          <h4>Edunet Foundation</h4>
+          <ul>
+            <li>
+              Selected for a prestigious AICTE-Shell program focused on solving
+              real-world challenges using AI for sustainability.
+            </li>
+            <li>
+              Attended mentorship sessions covering data modeling,
+              visualization, and model evaluation in green tech projects.
+            </li>
+            <li>
+              Built AI prototypes under guidance, integrating domain insights
+              and environmental impact metrics.
+            </li>
+            <li>
+              Presented solutions to industry experts in final showcase week,
+              aiming for certification from AICTE, Shell, and Edunet.
+            </li>
+          </ul>
+          <a
+            className="btn btn-primary"
+            href="https://drive.google.com/file/d/1EQJ0ZW3HzZ-mnF9f8fWNHmb4WnMYP-H0/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Offer Letter
+          </a>
+        </VerticalTimelineElement>
         {/* Excelerate */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -329,45 +407,6 @@ const Work = () => {
             SSG HITAM
           </a>
         </VerticalTimelineElement>
-
-        {/* EISystems Internship */}
-        <VerticalTimelineElement
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid rgb(33, 150, 243)" }}
-          date="Apr 2025 – May 2025"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<img className="experienceImg" src={IMG3} alt="EISystems" />}
-        >
-          <h3>Web Development Intern</h3>
-          <h4>EISystems Technologies</h4>
-          <ul>
-            <li>
-              Designed mobile-first, responsive webpages using HTML, CSS, and
-              Bootstrap components.
-            </li>
-            <li>
-              Practiced cross-browser testing and made UI/UX optimizations for
-              accessibility and consistency.
-            </li>
-            <li>
-              Integrated forms, buttons, and reusable design blocks for various
-              assigned tasks.
-            </li>
-            <li>
-              Learned to follow design documentation and collaborate in remote
-              teams using GitHub.
-            </li>
-          </ul>
-          <a
-            className="btn btn-primary"
-            href="https://drive.google.com/your-offer-letter-link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Completion Certificate
-          </a>
-        </VerticalTimelineElement>
-
         {/* AI Creators Internship */}
         <VerticalTimelineElement
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
