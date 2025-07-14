@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hemanthh-portfolio/static/css/main.a035c502.css",
-    "main.js": "/hemanthh-portfolio/static/js/main.c889a4bb.js",
+    "main.js": "/hemanthh-portfolio/static/js/main.44c37107.js",
     "static/media/SSG2025.png": "/hemanthh-portfolio/static/media/SSG2025.13b93e8c9f58f94608f0.png",
     "static/media/Hemanth.png": "/hemanthh-portfolio/static/media/Hemanth.70da6f47ac36ed7cddc4.png",
     "static/media/Ishita.png": "/hemanthh-portfolio/static/media/Ishita.5916c3184226bfd2fcdf.png",
@@ -12,6 +12,7 @@
     "static/media/hitam.png": "/hemanthh-portfolio/static/media/hitam.916fb854e66ab42b2492.png",
     "static/media/Mjp.png": "/hemanthh-portfolio/static/media/Mjp.c50028b76b5d98e331bb.png",
     "static/media/Google.png": "/hemanthh-portfolio/static/media/Google.cd577fa429c070d76e1d.png",
+    "static/media/ele.webp": "/hemanthh-portfolio/static/media/ele.0a6e072e20921477366f.webp",
     "static/media/nstse.jpg": "/hemanthh-portfolio/static/media/nstse.97b3d6b3bf101b34151d.jpg",
     "static/media/LinkedinL.png": "/hemanthh-portfolio/static/media/LinkedinL.db720d1351aa8902c81b.png",
     "static/media/nie.jpg": "/hemanthh-portfolio/static/media/nie.817950cfbcf6ec2d918a.jpg",
@@ -31,10 +32,10 @@
     "static/media/Linkedinp.webp": "/hemanthh-portfolio/static/media/Linkedinp.e132b6c330f413676899.webp",
     "index.html": "/hemanthh-portfolio/index.html",
     "main.a035c502.css.map": "/hemanthh-portfolio/static/css/main.a035c502.css.map",
-    "main.c889a4bb.js.map": "/hemanthh-portfolio/static/js/main.c889a4bb.js.map"
+    "main.44c37107.js.map": "/hemanthh-portfolio/static/js/main.44c37107.js.map"
   },
   "entrypoints": [
     "static/css/main.a035c502.css",
-    "static/js/main.c889a4bb.js"
+    "static/js/main.44c37107.js"
   ]
 }
