@@ -5,7 +5,7 @@ Hey there! This is my personal portfolio website — designed, developed, and de
 > Originally inspired by an open-source template, but fully restructured, personalized, and maintained by Hemanth Nayak.
 
 ## 🔗 Live Site
-https://hemanth2003.github.io/hemanth-portfolio
+(https://hemannayak.github.io/hemanthh-portfolio/)
 
 ## 🛠️ Built With
 - React
